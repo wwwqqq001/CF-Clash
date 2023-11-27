@@ -32,6 +32,7 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
+      - 🔯 故障转移
       - DIRECT
       - 寄多了通知我
       - pages2
@@ -63,6 +64,23 @@ proxy-groups:
       - 满速2
       - 满速1
       - pages1
+  - name: 🔯 故障转移
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+    proxies:
+      - 寄多了通知我
+      - pages2
+      - 防失联
+      - 阿七专用
+      - 稳定
+      - 政委2
+      - workers1
+      - workers2
+      - 政委1
+      - 满速2
+      - 满速1
+      - pages1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -80,6 +98,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🔯 故障转移
       - 寄多了通知我
       - pages2
       - 防失联
