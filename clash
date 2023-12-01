@@ -15,69 +15,63 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 满速节点速度快，易失效, server: 131.186.31.56, port: 80, type: vless, uuid: e2c73273-82e2-4736-afb4-886d82fd0a4b, tls: false, client-fingerprint: chrome, tfo: false, servername: cs001.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001.yhvtpudtft.workers.dev}}}
-  - {name: 满速3, server: 8.212.55.112, port: 80, type: vless, uuid: e2c73273-82e2-4736-afb4-886d82fd0a4b, tls: false, client-fingerprint: chrome, tfo: false, servername: cs001.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001.yhvtpudtft.workers.dev}}}
-  - {name: 政委2, server: www.wto.org, port: 8880, type: vless, uuid: 33a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: false, client-fingerprint: chrome, tfo: false, servername: cs003.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs003.yhvtpudtft.workers.dev}}}
-  - {name: 满速5, server: 146.56.136.138, port: 80, type: vless, uuid: e2c73273-82e2-4736-afb4-886d82fd0a4b, tls: false, client-fingerprint: chrome, tfo: false, servername: cs001.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001.yhvtpudtft.workers.dev}}}
-  - {name: 政委1, server: www.visa.com, port: 2052, type: vless, uuid: 33a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: false, client-fingerprint: chrome, tfo: false, servername: cs003.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs003.yhvtpudtft.workers.dev}}}
-  - {name: pages2(备用节点，平时少用), server: time.is, port: 443, type: vless, uuid: ce9018fb-cd6a-47f5-84fb-591c2da0b23e, tls: true, client-fingerprint: random, tfo: false, servername: cs001-e5a.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001-e5a.pages.dev}}}
-  - {name: workers2(备用节点，平时少用), server: www.csgo.com, port: 8880, type: vless, uuid: ce9018fb-cd6a-47f5-84fb-591c2da0b23e, tls: false, client-fingerprint: chrome, tfo: false, servername: cs002.elrozxeynl.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs002.elrozxeynl.workers.dev}}}
-  - {name: 寄多了通知我, server: time.cloudflare.com, port: 80, type: vless, uuid: 33a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: false, client-fingerprint: chrome, tfo: false, servername: cs003.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs003.yhvtpudtft.workers.dev}}}
+  - {name: 阿七专用, server: download.yunzhongzhuan.com, port: 8443, type: vless, uuid: 66a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: true, client-fingerprint: random, tfo: false, servername: cs002.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs002.pages.dev}}}
+  - {name: 防失联, server: time.is, port: 8443, type: vless, uuid: 66a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: true, client-fingerprint: random, tfo: false, servername: cs002.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs002.pages.dev}}}
+  - {name: 高速ipv6专线, server: "2606:4700::", port: 80, type: vless, uuid: e2c73273-82e2-4736-afb4-886d82fd0a4b, tls: false, client-fingerprint: chrome, tfo: false, servername: cs001.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001.yhvtpudtft.workers.dev}}}
   - {name: 满速1, server: 172.64.202.205, port: 2082, type: vless, uuid: e2c73273-82e2-4736-afb4-886d82fd0a4b, tls: false, client-fingerprint: chrome, tfo: false, servername: cs001.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001.yhvtpudtft.workers.dev}}}
-  - {name: workers1(备用节点，平时少用), server: skk.moe, port: 8880, type: vless, uuid: ce9018fb-cd6a-47f5-84fb-591c2da0b23e, tls: false, client-fingerprint: chrome, tfo: false, servername: cs002.elrozxeynl.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs002.elrozxeynl.workers.dev}}}
   - {name: 满速2, server: 172.67.160.224, port: 8080, type: vless, uuid: e2c73273-82e2-4736-afb4-886d82fd0a4b, tls: false, client-fingerprint: chrome, tfo: false, servername: cs001.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001.yhvtpudtft.workers.dev}}}
-  - {name: 满速4, server: 47.57.233.126, port: 80, type: vless, uuid: e2c73273-82e2-4736-afb4-886d82fd0a4b, tls: false, client-fingerprint: chrome, tfo: false, servername: cs001.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001.yhvtpudtft.workers.dev}}}
-  - {name: pages1(备用节点，平时少用), server: skk.moe, port: 8443, type: vless, uuid: ce9018fb-cd6a-47f5-84fb-591c2da0b23e, tls: true, client-fingerprint: random, tfo: false, servername: cs001-e5a.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001-e5a.pages.dev}}}
-  - {name: 阿七专用, server: www.shopify.com, port: 8443, type: vless, uuid: 66a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: true, client-fingerprint: random, tfo: false, servername: cs002.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs002.pages.dev}}}
-  - {name: pages3(备用节点，平时少用), server: www.gov.se, port: 443, type: vless, uuid: ce9018fb-cd6a-47f5-84fb-591c2da0b23e, tls: true, client-fingerprint: random, tfo: false, servername: cs001-e5a.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001-e5a.pages.dev}}}
-  - {name: 防失联, server: www.visa.com.hk, port: 8443, type: vless, uuid: 66a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: true, client-fingerprint: random, tfo: false, servername: cs002.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs002.pages.dev}}}
-  - {name: 稳定, server: www.gov.se, port: 2052, type: vless, uuid: e2c73273-82e2-4736-afb4-886d82fd0a4b, tls: false, client-fingerprint: chrome, tfo: false, servername: cs001.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001.yhvtpudtft.workers.dev}}}
+  - {name: 满速3, server: 47.57.233.126, port: 80, type: vless, uuid: e2c73273-82e2-4736-afb4-886d82fd0a4b, tls: false, client-fingerprint: chrome, tfo: false, servername: cs001.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001.yhvtpudtft.workers.dev}}}
+  - {name: 满速4, server: www.ipchicken.com, port: 2052, type: vless, uuid: 33a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: false, client-fingerprint: chrome, tfo: false, servername: cs003.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs003.yhvtpudtft.workers.dev}}}
+  - {name: 满速5, server: 8.218.105.223, port: 80, type: vless, uuid: e2c73273-82e2-4736-afb4-886d82fd0a4b, tls: false, client-fingerprint: chrome, tfo: false, servername: cs001.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001.yhvtpudtft.workers.dev}}}
+  - {name: 稳定0, server: www.gov.se, port: 2052, type: vless, uuid: e2c73273-82e2-4736-afb4-886d82fd0a4b, tls: false, client-fingerprint: chrome, tfo: false, servername: cs001.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001.yhvtpudtft.workers.dev}}}
+  - {name: 稳定1, server: www.ipaddress.my, port: 80, type: vless, uuid: 33a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: false, client-fingerprint: chrome, tfo: false, servername: cs003.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs003.yhvtpudtft.workers.dev}}}
+  - {name: 稳定2, server: www.hugedomains.com, port: 8443, type: vless, uuid: ce9018fb-cd6a-47f5-84fb-591c2da0b23e, tls: true, client-fingerprint: random, tfo: false, servername: cs001-e5a.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001-e5a.pages.dev}}}
+  - {name: 稳定3, server: www.csgo.com, port: 8880, type: vless, uuid: ce9018fb-cd6a-47f5-84fb-591c2da0b23e, tls: false, client-fingerprint: chrome, tfo: false, servername: cs002.elrozxeynl.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs002.elrozxeynl.workers.dev}}}
+  - {name: 稳定4, server: www.iplocation.net, port: 443, type: vless, uuid: ce9018fb-cd6a-47f5-84fb-591c2da0b23e, tls: true, client-fingerprint: random, tfo: false, servername: cs001-e5a.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001-e5a.pages.dev}}}
+  - {name: 稳定5, server: time.is, port: 443, type: vless, uuid: ce9018fb-cd6a-47f5-84fb-591c2da0b23e, tls: true, client-fingerprint: random, tfo: false, servername: cs001-e5a.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001-e5a.pages.dev}}}
+  - {name: 稳定6, server: www.whatismyip.com, port: 8880, type: vless, uuid: ce9018fb-cd6a-47f5-84fb-591c2da0b23e, tls: false, client-fingerprint: chrome, tfo: false, servername: cs002.elrozxeynl.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs002.elrozxeynl.workers.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 满速节点速度快，易失效
-      - 满速3
-      - 政委2
-      - 满速5
-      - 政委1
-      - pages2(备用节点，平时少用)
-      - workers2(备用节点，平时少用)
-      - 寄多了通知我
-      - 满速1
-      - workers1(备用节点，平时少用)
-      - 满速2
-      - 满速4
-      - pages1(备用节点，平时少用)
       - 阿七专用
-      - pages3(备用节点，平时少用)
       - 防失联
-      - 稳定
+      - 高速ipv6专线
+      - 满速1
+      - 满速2
+      - 满速3
+      - 满速4
+      - 满速5
+      - 稳定0
+      - 稳定1
+      - 稳定2
+      - 稳定3
+      - 稳定4
+      - 稳定5
+      - 稳定6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 满速节点速度快，易失效
-      - 满速3
-      - 政委2
-      - 满速5
-      - 政委1
-      - pages2(备用节点，平时少用)
-      - workers2(备用节点，平时少用)
-      - 寄多了通知我
-      - 满速1
-      - workers1(备用节点，平时少用)
-      - 满速2
-      - 满速4
-      - pages1(备用节点，平时少用)
       - 阿七专用
-      - pages3(备用节点，平时少用)
       - 防失联
-      - 稳定
+      - 高速ipv6专线
+      - 满速1
+      - 满速2
+      - 满速3
+      - 满速4
+      - 满速5
+      - 稳定0
+      - 稳定1
+      - 稳定2
+      - 稳定3
+      - 稳定4
+      - 稳定5
+      - 稳定6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -95,23 +89,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 满速节点速度快，易失效
-      - 满速3
-      - 政委2
-      - 满速5
-      - 政委1
-      - pages2(备用节点，平时少用)
-      - workers2(备用节点，平时少用)
-      - 寄多了通知我
-      - 满速1
-      - workers1(备用节点，平时少用)
-      - 满速2
-      - 满速4
-      - pages1(备用节点，平时少用)
       - 阿七专用
-      - pages3(备用节点，平时少用)
       - 防失联
-      - 稳定
+      - 高速ipv6专线
+      - 满速1
+      - 满速2
+      - 满速3
+      - 满速4
+      - 满速5
+      - 稳定0
+      - 稳定1
+      - 稳定2
+      - 稳定3
+      - 稳定4
+      - 稳定5
+      - 稳定6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
