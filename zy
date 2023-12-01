@@ -15,63 +15,90 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 防失联, server: www.visa.com.hk, port: 8443, type: vless, uuid: 66a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: true, client-fingerprint: random, tfo: false, servername: cs002.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs002.pages.dev}}}
-  - {name: 阿七专用, server: www.visa.co.jp, port: 8443, type: vless, uuid: 66a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: true, client-fingerprint: random, tfo: false, servername: cs002.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs002.pages.dev}}}
-  - {name: 🇸🇬 新加坡1, server: 8.218.105.223, port: 80, type: vless, uuid: e2c73273-82e2-4736-afb4-886d82fd0a4b, tls: false, client-fingerprint: chrome, tfo: false, servername: cs001.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001.yhvtpudtft.workers.dev}}}
-  - {name: 满速3, server: 8.212.55.112, port: 80, type: vless, uuid: e2c73273-82e2-4736-afb4-886d82fd0a4b, tls: false, client-fingerprint: chrome, tfo: false, servername: cs001.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001.yhvtpudtft.workers.dev}}}
-  - {name: 满速1, server: 172.64.202.205, port: 2082, type: vless, uuid: e2c73273-82e2-4736-afb4-886d82fd0a4b, tls: false, client-fingerprint: chrome, tfo: false, servername: cs001.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001.yhvtpudtft.workers.dev}}}
-  - {name: 寄多了通知我, server: time.cloudflare.com, port: 80, type: vless, uuid: 33a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: false, client-fingerprint: chrome, tfo: false, servername: cs003.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs003.yhvtpudtft.workers.dev}}}
-  - {name: workers2(备用节点，平时少用), server: www.csgo.com, port: 8880, type: vless, uuid: ce9018fb-cd6a-47f5-84fb-591c2da0b23e, tls: false, client-fingerprint: chrome, tfo: false, servername: cs002.elrozxeynl.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs002.elrozxeynl.workers.dev}}}
-  - {name: workers1(备用节点，平时少用), server: skk.moe, port: 8880, type: vless, uuid: ce9018fb-cd6a-47f5-84fb-591c2da0b23e, tls: false, client-fingerprint: chrome, tfo: false, servername: cs002.elrozxeynl.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs002.elrozxeynl.workers.dev}}}
-  - {name: 满速4, server: 47.57.233.126, port: 80, type: vless, uuid: e2c73273-82e2-4736-afb4-886d82fd0a4b, tls: false, client-fingerprint: chrome, tfo: false, servername: cs001.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001.yhvtpudtft.workers.dev}}}
-  - {name: 稳定, server: www.gov.se, port: 2052, type: vless, uuid: e2c73273-82e2-4736-afb4-886d82fd0a4b, tls: false, client-fingerprint: chrome, tfo: false, servername: cs001.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001.yhvtpudtft.workers.dev}}}
-  - {name: 政委2, server: www.wto.org, port: 8880, type: vless, uuid: 33a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: false, client-fingerprint: chrome, tfo: false, servername: cs003.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs003.yhvtpudtft.workers.dev}}}
-  - {name: pages1(备用节点，平时少用), server: skk.moe, port: 8443, type: vless, uuid: ce9018fb-cd6a-47f5-84fb-591c2da0b23e, tls: true, client-fingerprint: random, tfo: false, servername: cs001-e5a.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001-e5a.pages.dev}}}
-  - {name: 满速2, server: 172.67.160.224, port: 8080, type: vless, uuid: e2c73273-82e2-4736-afb4-886d82fd0a4b, tls: false, client-fingerprint: chrome, tfo: false, servername: cs001.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001.yhvtpudtft.workers.dev}}}
-  - {name: pages3(备用节点，平时少用), server: www.gov.se, port: 443, type: vless, uuid: ce9018fb-cd6a-47f5-84fb-591c2da0b23e, tls: true, client-fingerprint: random, tfo: false, servername: cs001-e5a.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001-e5a.pages.dev}}}
-  - {name: 满速节点速度快，易失效, server: "2606:4700::", port: 80, type: vless, uuid: e2c73273-82e2-4736-afb4-886d82fd0a4b, tls: false, client-fingerprint: chrome, tfo: false, servername: cs001.yhvtpudtft.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cs001.yhvtpudtft.workers.dev}}}
+  - {name: 80备用节点, server: skk.moe, port: 8880, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: false, client-fingerprint: chrome, tfo: false, servername: hk80.wwwqqq001.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk80.wwwqqq001.workers.dev}}}
+  - {name: 防失联1, server: www.wto.org, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 防失联2, server: fbi.gov, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 🇫🇮 芬兰-通用（ipv6）, server: 2001:67c:2b0:db32:0:1:681a:404, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 🇰🇷 韩国-高速0, server: 129.154.204.13, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: kr.github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: kr.github-1g1.pages.dev}}}
+  - {name: 🇰🇷 韩国-高速1, server: 132.145.80.220, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: kr.github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: kr.github-1g1.pages.dev}}}
+  - {name: 🇰🇷 韩国-高速2, server: 193.122.112.97, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: kr.github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: kr.github-1g1.pages.dev}}}
+  - {name: 🇰🇷 韩国-高速3, server: 129.154.204.25, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: kr.github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: kr.github-1g1.pages.dev}}}
+  - {name: 🇰🇷 韩国-高速4, server: 132.145.80.220, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: kr.github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: kr.github-1g1.pages.dev}}}
+  - {name: 🇰🇷 韩国-高速5, server: 129.154.192.165, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: kr.github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: kr.github-1g1.pages.dev}}}
+  - {name: 🇺🇸 美国-高速1, server: 104.16.66.177, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: us.github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: us.github-1g1.pages.dev}}}
+  - {name: 🇺🇸 美国-高速2, server: 172.64.202.205, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: us.github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: us.github-1g1.pages.dev}}}
+  - {name: 🇺🇸 美国-稳定（ipv6）, server: "2606:4700::", port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: us.github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: us.github-1g1.pages.dev}}}
+  - {name: 🇯🇵 日本-高速0, server: 47.74.13.200, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: jp.github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jp.github-1g1.pages.dev}}}
+  - {name: 稳定0, server: skk.moe, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 稳定1, server: www.visa.com, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 稳定2, server: time.cloudflare.com, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 🇭🇰 香港, server: hk.cloudflarest.link, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: hk.github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk.github-1g1.pages.dev}}}
+  - {name: 🇭🇰 香港-高速0, server: 47.243.161.235, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: hk.github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk.github-1g1.pages.dev}}}
+  - {name: 🇭🇰 香港-高速1, server: 8.218.105.223, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: hk.github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk.github-1g1.pages.dev}}}
+  - {name: 🇭🇰 香港-高速2, server: 8.218.3.12, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: hk.github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk.github-1g1.pages.dev}}}
+  - {name: 🇸🇬 新加坡-高速0, server: 8.219.195.47, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: sg.github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.github-1g1.pages.dev}}}
+  - {name: 🇯🇵 日本-高速1, server: jp.cloudflarest.link, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: jp.github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jp.github-1g1.pages.dev}}}
+  - {name: 🇰🇷 韩国-高速0 2, server: jp.cloudflarest.link, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: kr.github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: kr.github-1g1.pages.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 防失联
-      - 阿七专用
-      - 🇸🇬 新加坡1
-      - 满速3
-      - 满速1
-      - 寄多了通知我
-      - workers2(备用节点，平时少用)
-      - workers1(备用节点，平时少用)
-      - 满速4
-      - 稳定
-      - 政委2
-      - pages1(备用节点，平时少用)
-      - 满速2
-      - pages3(备用节点，平时少用)
-      - 满速节点速度快，易失效
+      - 80备用节点
+      - 防失联1
+      - 防失联2
+      - 🇫🇮 芬兰-通用（ipv6）
+      - 🇰🇷 韩国-高速0
+      - 🇰🇷 韩国-高速1
+      - 🇰🇷 韩国-高速2
+      - 🇰🇷 韩国-高速3
+      - 🇰🇷 韩国-高速4
+      - 🇰🇷 韩国-高速5
+      - 🇺🇸 美国-高速1
+      - 🇺🇸 美国-高速2
+      - 🇺🇸 美国-稳定（ipv6）
+      - 🇯🇵 日本-高速0
+      - 稳定0
+      - 稳定1
+      - 稳定2
+      - 🇭🇰 香港
+      - 🇭🇰 香港-高速0
+      - 🇭🇰 香港-高速1
+      - 🇭🇰 香港-高速2
+      - 🇸🇬 新加坡-高速0
+      - 🇯🇵 日本-高速1
+      - 🇰🇷 韩国-高速0 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 防失联
-      - 阿七专用
-      - 🇸🇬 新加坡1
-      - 满速3
-      - 满速1
-      - 寄多了通知我
-      - workers2(备用节点，平时少用)
-      - workers1(备用节点，平时少用)
-      - 满速4
-      - 稳定
-      - 政委2
-      - pages1(备用节点，平时少用)
-      - 满速2
-      - pages3(备用节点，平时少用)
-      - 满速节点速度快，易失效
+      - 80备用节点
+      - 防失联1
+      - 防失联2
+      - 🇫🇮 芬兰-通用（ipv6）
+      - 🇰🇷 韩国-高速0
+      - 🇰🇷 韩国-高速1
+      - 🇰🇷 韩国-高速2
+      - 🇰🇷 韩国-高速3
+      - 🇰🇷 韩国-高速4
+      - 🇰🇷 韩国-高速5
+      - 🇺🇸 美国-高速1
+      - 🇺🇸 美国-高速2
+      - 🇺🇸 美国-稳定（ipv6）
+      - 🇯🇵 日本-高速0
+      - 稳定0
+      - 稳定1
+      - 稳定2
+      - 🇭🇰 香港
+      - 🇭🇰 香港-高速0
+      - 🇭🇰 香港-高速1
+      - 🇭🇰 香港-高速2
+      - 🇸🇬 新加坡-高速0
+      - 🇯🇵 日本-高速1
+      - 🇰🇷 韩国-高速0 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -89,21 +116,30 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 防失联
-      - 阿七专用
-      - 🇸🇬 新加坡1
-      - 满速3
-      - 满速1
-      - 寄多了通知我
-      - workers2(备用节点，平时少用)
-      - workers1(备用节点，平时少用)
-      - 满速4
-      - 稳定
-      - 政委2
-      - pages1(备用节点，平时少用)
-      - 满速2
-      - pages3(备用节点，平时少用)
-      - 满速节点速度快，易失效
+      - 80备用节点
+      - 防失联1
+      - 防失联2
+      - 🇫🇮 芬兰-通用（ipv6）
+      - 🇰🇷 韩国-高速0
+      - 🇰🇷 韩国-高速1
+      - 🇰🇷 韩国-高速2
+      - 🇰🇷 韩国-高速3
+      - 🇰🇷 韩国-高速4
+      - 🇰🇷 韩国-高速5
+      - 🇺🇸 美国-高速1
+      - 🇺🇸 美国-高速2
+      - 🇺🇸 美国-稳定（ipv6）
+      - 🇯🇵 日本-高速0
+      - 稳定0
+      - 稳定1
+      - 稳定2
+      - 🇭🇰 香港
+      - 🇭🇰 香港-高速0
+      - 🇭🇰 香港-高速1
+      - 🇭🇰 香港-高速2
+      - 🇸🇬 新加坡-高速0
+      - 🇯🇵 日本-高速1
+      - 🇰🇷 韩国-高速0 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
