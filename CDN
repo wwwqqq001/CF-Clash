@@ -15,81 +15,81 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 主线通用14, server: www.wto.org, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线通用8, server: www.who.int, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线通用5, server: www.visakorea.com, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线通用10, server: www.visa.com.hk, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线通用2, server: www.visa.com.sg, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线通用12, server: www.visa.com, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线通用13, server: www.udemy.com, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线通用3, server: www.udacity.com, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线通用15, server: www.gov.se, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线通用9, server: www.glassdoor.com, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线通用17, server: www.csgo.com, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线通用6, server: whatismyipaddress.com, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线通用18, server: time.cloudflare.com, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线通用1, server: skk.moe, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线通用7, server: shopify.com, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线通用19, server: icook.tw, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线通用20, server: gur.gov.ua, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线通用16, server: fbi.gov, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线通用11, server: edtunnel-dgp.pages.dev, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线通用4, server: download.yunzhongzhuan.com, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: ipv6, server: "2606:4700::", port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, client-fingerprint: random, tfo: false, servername: github-1g1.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: ipv6, server: "2606:4700::", port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 主线通用4, server: download.yunzhongzhuan.com, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 主线通用11, server: edtunnel-dgp.pages.dev, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 主线通用16, server: fbi.gov, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 主线通用20, server: gur.gov.ua, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 主线通用19, server: icook.tw, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 主线通用7, server: ip.sb, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 主线通用1, server: skk.moe, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 主线通用18, server: time.cloudflare.com, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 主线通用6, server: whatismyipaddress.com, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 主线通用17, server: www.csgo.com, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 主线通用9, server: www.glassdoor.com, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 主线通用15, server: www.gov.se, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 主线通用3, server: www.udacity.com, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 主线通用13, server: www.udemy.com, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 主线通用12, server: www.visa.com, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 主线通用10, server: www.visa.com.hk, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 主线通用2, server: www.visa.com.sg, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 主线通用5, server: www.visakorea.com, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 主线通用8, server: www.who.int, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 主线通用14, server: www.wto.org, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 主线通用14
-      - 主线通用8
-      - 主线通用5
+      - ipv6
+      - 主线通用4
+      - 主线通用11
+      - 主线通用16
+      - 主线通用20
+      - 主线通用19
+      - 主线通用7
+      - 主线通用1
+      - 主线通用18
+      - 主线通用6
+      - 主线通用17
+      - 主线通用9
+      - 主线通用15
+      - 主线通用3
+      - 主线通用13
+      - 主线通用12
       - 主线通用10
       - 主线通用2
-      - 主线通用12
-      - 主线通用13
-      - 主线通用3
-      - 主线通用15
-      - 主线通用9
-      - 主线通用17
-      - 主线通用6
-      - 主线通用18
-      - 主线通用1
-      - 主线通用7
-      - 主线通用19
-      - 主线通用20
-      - 主线通用16
-      - 主线通用11
-      - 主线通用4
-      - ipv6
+      - 主线通用5
+      - 主线通用8
+      - 主线通用14
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 主线通用14
-      - 主线通用8
-      - 主线通用5
+      - ipv6
+      - 主线通用4
+      - 主线通用11
+      - 主线通用16
+      - 主线通用20
+      - 主线通用19
+      - 主线通用7
+      - 主线通用1
+      - 主线通用18
+      - 主线通用6
+      - 主线通用17
+      - 主线通用9
+      - 主线通用15
+      - 主线通用3
+      - 主线通用13
+      - 主线通用12
       - 主线通用10
       - 主线通用2
-      - 主线通用12
-      - 主线通用13
-      - 主线通用3
-      - 主线通用15
-      - 主线通用9
-      - 主线通用17
-      - 主线通用6
-      - 主线通用18
-      - 主线通用1
-      - 主线通用7
-      - 主线通用19
-      - 主线通用20
-      - 主线通用16
-      - 主线通用11
-      - 主线通用4
-      - ipv6
+      - 主线通用5
+      - 主线通用8
+      - 主线通用14
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -107,27 +107,27 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 主线通用14
-      - 主线通用8
-      - 主线通用5
+      - ipv6
+      - 主线通用4
+      - 主线通用11
+      - 主线通用16
+      - 主线通用20
+      - 主线通用19
+      - 主线通用7
+      - 主线通用1
+      - 主线通用18
+      - 主线通用6
+      - 主线通用17
+      - 主线通用9
+      - 主线通用15
+      - 主线通用3
+      - 主线通用13
+      - 主线通用12
       - 主线通用10
       - 主线通用2
-      - 主线通用12
-      - 主线通用13
-      - 主线通用3
-      - 主线通用15
-      - 主线通用9
-      - 主线通用17
-      - 主线通用6
-      - 主线通用18
-      - 主线通用1
-      - 主线通用7
-      - 主线通用19
-      - 主线通用20
-      - 主线通用16
-      - 主线通用11
-      - 主线通用4
-      - ipv6
+      - 主线通用5
+      - 主线通用8
+      - 主线通用14
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -600,6 +600,7 @@ rules:
   - DOMAIN-SUFFIX,zhjfad.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zqzxz.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zzsx8.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,wwads.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,acuityplatform.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ad-stir.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ad-survey.com,🛑 全球拦截
@@ -2103,6 +2104,8 @@ rules:
   - DOMAIN-SUFFIX,identrust.com,🚀 节点选择
   - DOMAIN-SUFFIX,intercom.io,🚀 节点选择
   - DOMAIN-SUFFIX,intercomcdn.com,🚀 节点选择
+  - DOMAIN-SUFFIX,oaistatic.com,🚀 节点选择
+  - DOMAIN-SUFFIX,oaiusercontent.com,🚀 节点选择
   - DOMAIN-SUFFIX,openai.com,🚀 节点选择
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🚀 节点选择
   - DOMAIN-SUFFIX,sentry.io,🚀 节点选择
@@ -2197,6 +2200,7 @@ rules:
   - DOMAIN-SUFFIX,tumbex.com,🚀 节点选择
   - DOMAIN-SUFFIX,twdvd.com,🚀 节点选择
   - DOMAIN-SUFFIX,unsplash.com,🚀 节点选择
+  - DOMAIN-SUFFIX,buzzsprout.com,🚀 节点选择
   - DOMAIN-SUFFIX,eu,🚀 节点选择
   - DOMAIN-SUFFIX,hk,🚀 节点选择
   - DOMAIN-SUFFIX,jp,🚀 节点选择
@@ -2354,6 +2358,8 @@ rules:
   - DOMAIN-KEYWORD,uk-live,🚀 节点选择
   - DOMAIN-SUFFIX,bbc.co,🚀 节点选择
   - DOMAIN-SUFFIX,bbc.com,🚀 节点选择
+  - DOMAIN-SUFFIX,claude.ai,🚀 节点选择
+  - DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
   - DOMAIN-SUFFIX,apache.org,🚀 节点选择
   - DOMAIN-SUFFIX,docker.com,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.co,🚀 节点选择
@@ -2509,6 +2515,7 @@ rules:
   - DOMAIN-SUFFIX,ypncdn.com,🚀 节点选择
   - DOMAIN-SUFFIX,pixiv.net,🚀 节点选择
   - DOMAIN-SUFFIX,pximg.net,🚀 节点选择
+  - DOMAIN-SUFFIX,fanbox.cc,🚀 节点选择
   - DOMAIN-SUFFIX,amplitude.com,🚀 节点选择
   - DOMAIN-SUFFIX,firebaseio.com,🚀 节点选择
   - DOMAIN-SUFFIX,hockeyapp.net,🚀 节点选择
@@ -2583,6 +2590,8 @@ rules:
   - DOMAIN-SUFFIX,wikiversity.org,🚀 节点选择
   - DOMAIN-SUFFIX,wikivoyage.org,🚀 节点选择
   - DOMAIN-SUFFIX,wiktionary.org,🚀 节点选择
+  - DOMAIN-SUFFIX,zoom.us,🚀 节点选择
+  - DOMAIN-SUFFIX,zoomgov.com,🚀 节点选择
   - DOMAIN-SUFFIX,neulion.com,🚀 节点选择
   - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
@@ -2605,6 +2614,7 @@ rules:
   - DOMAIN-SUFFIX,zhenguanyu.biz,🎯 全球直连
   - DOMAIN-SUFFIX,zhenguanyu.com,🎯 全球直连
   - DOMAIN-SUFFIX,snapdrop.net,🎯 全球直连
+  - DOMAIN-SUFFIX,tebex.io,🎯 全球直连
   - DOMAIN-SUFFIX,cn,🎯 全球直连
   - DOMAIN-SUFFIX,xn--fiqs8s,🎯 全球直连
   - DOMAIN-SUFFIX,xn--55qx5d,🎯 全球直连
@@ -2655,6 +2665,7 @@ rules:
   - DOMAIN-SUFFIX,aliyuncdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,aliyuncs.com,🎯 全球直连
   - DOMAIN-SUFFIX,aliyundrive.com,🎯 全球直连
+  - DOMAIN-SUFFIX,aliyundrive.net,🎯 全球直连
   - DOMAIN-SUFFIX,amap.com,🎯 全球直连
   - DOMAIN-SUFFIX,autonavi.com,🎯 全球直连
   - DOMAIN-SUFFIX,dingtalk.com,🎯 全球直连
@@ -2981,6 +2992,7 @@ rules:
   - DOMAIN-SUFFIX,biqudu.com,🎯 全球直连
   - DOMAIN-SUFFIX,biquge.com,🎯 全球直连
   - DOMAIN-SUFFIX,bitauto.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bosszhipin.com,🎯 全球直连
   - DOMAIN-SUFFIX,c-ctrip.com,🎯 全球直连
   - DOMAIN-SUFFIX,camera360.com,🎯 全球直连
   - DOMAIN-SUFFIX,cdnmama.com,🎯 全球直连
@@ -3189,6 +3201,7 @@ rules:
   - DOMAIN-SUFFIX,zhaopin.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhihu.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zhipin.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhongsou.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhuihd.com,🎯 全球直连
   - IP-CIDR,8.128.0.0/10,🎯 全球直连,no-resolve
