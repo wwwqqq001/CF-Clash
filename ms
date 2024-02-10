@@ -15,42 +15,75 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 主线满速1, server: 104.17.198.66, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线满速2, server: 104.19.144.155, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线满速3, server: 104.17.9.37, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线满速4, server: 162.159.46.134, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线满速5, server: 104.18.93.135, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线满速6, server: 104.16.199.28, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线满速7, server: 173.245.59.243, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
-  - {name: 主线满速8, server: 104.16.18.235, port: 8443, type: vless, uuid: cf08a930-9b54-4624-ad49-f4332d1af51b, tls: true, tfo: false, skip-cert-verify: false, servername: github-1g1.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: github-1g1.pages.dev}}}
+  - {name: 🇸🇬 新加坡-8-219-40-255, server: 8.219.40.255, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: 🇸🇬 新加坡-8-222-212-219, server: 8.222.212.219, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: 🇸🇬 新加坡-8-219-122-96, server: 8.219.122.96, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: 🇸🇬 新加坡-8-222-224-163, server: 8.222.224.163, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: 🇸🇬 新加坡-8-219-222-8, server: 8.219.222.8, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: 🇸🇬 新加坡-158-178-246-169, server: 158.178.246.169, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: 🇸🇬 新加坡-158-178-242-5, server: 158.178.242.5, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: 🇸🇬 新加坡-8-222-215-228, server: 8.222.215.228, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: 🇸🇬 新加坡-138-2-80-183, server: 138.2.80.183, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: 🇸🇬 新加坡-138-2-92-11, server: 138.2.92.11, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: 🇸🇬 新加坡-8-222-174-108, server: 8.222.174.108, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: 🇭🇰 香港-47-242-155-183, server: 47.242.155.183, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: hk.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk.cf-workers-bkn.pages.dev}}}
+  - {name: 🇭🇰 香港-8-217-250-5, server: 8.217.250.5, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: hk.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk.cf-workers-bkn.pages.dev}}}
+  - {name: 🇭🇰 香港-8-217-149-28, server: 8.217.149.28, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: hk.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk.cf-workers-bkn.pages.dev}}}
+  - {name: 🇭🇰 香港-47-243-162-49, server: 47.243.162.49, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: hk.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk.cf-workers-bkn.pages.dev}}}
+  - {name: 🇭🇰 香港-43-153-80-208, server: 43.153.80.208, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: hk.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk.cf-workers-bkn.pages.dev}}}
+  - {name: 🇺🇸 美国-43-153-80-208, server: 43.153.80.208, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: us.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: us.cf-workers-bkn.pages.dev}}}
+  - {name: 🇺🇸 美国-43-153-103-203, server: 43.153.103.203, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: us.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: us.cf-workers-bkn.pages.dev}}}
+  - {name: 🇺🇸 美国-150-230-47-17, server: 150.230.47.17, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: us.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: us.cf-workers-bkn.pages.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 主线满速1
-      - 主线满速2
-      - 主线满速3
-      - 主线满速4
-      - 主线满速5
-      - 主线满速6
-      - 主线满速7
-      - 主线满速8
+      - 🇸🇬 新加坡-8-219-40-255
+      - 🇸🇬 新加坡-8-222-212-219
+      - 🇸🇬 新加坡-8-219-122-96
+      - 🇸🇬 新加坡-8-222-224-163
+      - 🇸🇬 新加坡-8-219-222-8
+      - 🇸🇬 新加坡-158-178-246-169
+      - 🇸🇬 新加坡-158-178-242-5
+      - 🇸🇬 新加坡-8-222-215-228
+      - 🇸🇬 新加坡-138-2-80-183
+      - 🇸🇬 新加坡-138-2-92-11
+      - 🇸🇬 新加坡-8-222-174-108
+      - 🇭🇰 香港-47-242-155-183
+      - 🇭🇰 香港-8-217-250-5
+      - 🇭🇰 香港-8-217-149-28
+      - 🇭🇰 香港-47-243-162-49
+      - 🇭🇰 香港-43-153-80-208
+      - 🇺🇸 美国-43-153-80-208
+      - 🇺🇸 美国-43-153-103-203
+      - 🇺🇸 美国-150-230-47-17
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 主线满速1
-      - 主线满速2
-      - 主线满速3
-      - 主线满速4
-      - 主线满速5
-      - 主线满速6
-      - 主线满速7
-      - 主线满速8
+      - 🇸🇬 新加坡-8-219-40-255
+      - 🇸🇬 新加坡-8-222-212-219
+      - 🇸🇬 新加坡-8-219-122-96
+      - 🇸🇬 新加坡-8-222-224-163
+      - 🇸🇬 新加坡-8-219-222-8
+      - 🇸🇬 新加坡-158-178-246-169
+      - 🇸🇬 新加坡-158-178-242-5
+      - 🇸🇬 新加坡-8-222-215-228
+      - 🇸🇬 新加坡-138-2-80-183
+      - 🇸🇬 新加坡-138-2-92-11
+      - 🇸🇬 新加坡-8-222-174-108
+      - 🇭🇰 香港-47-242-155-183
+      - 🇭🇰 香港-8-217-250-5
+      - 🇭🇰 香港-8-217-149-28
+      - 🇭🇰 香港-47-243-162-49
+      - 🇭🇰 香港-43-153-80-208
+      - 🇺🇸 美国-43-153-80-208
+      - 🇺🇸 美国-43-153-103-203
+      - 🇺🇸 美国-150-230-47-17
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -68,14 +101,25 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 主线满速1
-      - 主线满速2
-      - 主线满速3
-      - 主线满速4
-      - 主线满速5
-      - 主线满速6
-      - 主线满速7
-      - 主线满速8
+      - 🇸🇬 新加坡-8-219-40-255
+      - 🇸🇬 新加坡-8-222-212-219
+      - 🇸🇬 新加坡-8-219-122-96
+      - 🇸🇬 新加坡-8-222-224-163
+      - 🇸🇬 新加坡-8-219-222-8
+      - 🇸🇬 新加坡-158-178-246-169
+      - 🇸🇬 新加坡-158-178-242-5
+      - 🇸🇬 新加坡-8-222-215-228
+      - 🇸🇬 新加坡-138-2-80-183
+      - 🇸🇬 新加坡-138-2-92-11
+      - 🇸🇬 新加坡-8-222-174-108
+      - 🇭🇰 香港-47-242-155-183
+      - 🇭🇰 香港-8-217-250-5
+      - 🇭🇰 香港-8-217-149-28
+      - 🇭🇰 香港-47-243-162-49
+      - 🇭🇰 香港-43-153-80-208
+      - 🇺🇸 美国-43-153-80-208
+      - 🇺🇸 美国-43-153-103-203
+      - 🇺🇸 美国-150-230-47-17
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1859,6 +1903,9 @@ rules:
   - DOMAIN,gamer2-cds.cdn.hinet.net,🚀 节点选择
   - DOMAIN-SUFFIX,bahamut.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,gamer.com.tw,🚀 节点选择
+  - DOMAIN-SUFFIX,bilibili.tv,🚀 节点选择
+  - DOMAIN-SUFFIX,bstarstatic.com,🚀 节点选择
+  - DOMAIN,pic-bstarstatic.akamaized.net,🚀 节点选择
   - DOMAIN-KEYWORD,voddazn,🚀 节点选择
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
@@ -1908,7 +1955,6 @@ rules:
   - DOMAIN-SUFFIX,hbomax.com,🚀 节点选择
   - DOMAIN-SUFFIX,hbomaxcdn.com,🚀 节点选择
   - DOMAIN-SUFFIX,hbonow.com,🚀 节点选择
-  - DOMAIN-KEYWORD,.hbogoasia.,🚀 节点选择
   - DOMAIN-KEYWORD,hbogoasia,🚀 节点选择
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
   - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 节点选择
@@ -2653,6 +2699,8 @@ rules:
   - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
   - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bilibili.co,🎯 全球直连
+  - DOMAIN-SUFFIX,biliintl.co,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
