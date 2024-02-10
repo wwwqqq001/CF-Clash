@@ -70,6 +70,7 @@ proxies:
   - {name: -www-gov-ua, server: www.gov.ua, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
   - {name: -www-ipaddress-my, server: www.ipaddress.my, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
   - {name: "-[2606-4700--]", server: "2606:4700::", port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
+  - {name: 默认IPV6, server: "2606:4700::", port: 8443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -131,6 +132,7 @@ proxy-groups:
       - -www-gov-ua
       - -www-ipaddress-my
       - -[2606-4700--]
+      - 默认IPV6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -192,6 +194,7 @@ proxy-groups:
       - -www-gov-ua
       - -www-ipaddress-my
       - -[2606-4700--]
+      - 默认IPV6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -264,6 +267,7 @@ proxy-groups:
       - -www-gov-ua
       - -www-ipaddress-my
       - -[2606-4700--]
+      - 默认IPV6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
