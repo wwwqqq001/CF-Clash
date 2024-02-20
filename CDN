@@ -15,186 +15,183 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: -cdn-xn--b6gac-eu-org, server: cdn.xn--b6gac.eu.org, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -cdn-b100-xn--b6gac-eu-org, server: cdn-b100.xn--b6gac.eu.org, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -download-yunzhongzhuan-com, server: download.yunzhongzhuan.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-whoer-net, server: www.whoer.net, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-udacity-com, server: www.udacity.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -skk-moe, server: skk.moe, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-shopify-com, server: www.shopify.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-digitalocean-com, server: www.digitalocean.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -fbi-gov, server: fbi.gov, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -gur-gov-ua, server: gur.gov.ua, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -edtunnel-dgp-pages-dev, server: edtunnel-dgp.pages.dev, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-udemy-com, server: www.udemy.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-wto-org, server: www.wto.org, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-okcupid-com, server: www.okcupid.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-who-int, server: www.who.int, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: 🇰🇷 -www-visakorea-com, server: www.visakorea.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-4chan-org, server: www.4chan.org, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: 🇹🇼 -www-visa-com-tw, server: www.visa.com.tw, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-glassdoor-com, server: www.glassdoor.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-gov-se, server: www.gov.se, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -whatismyipaddress-com, server: whatismyipaddress.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: 🇸🇬 -www-visa-com-sg, server: www.visa.com.sg, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -edgetunnel-anycast-eu-org, server: edgetunnel.anycast.eu.org, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-csgo-com, server: www.csgo.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-pcmag-com, server: www.pcmag.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: 🇯🇵 -www-visa-co-jp, server: www.visa.co.jp, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: 🇭🇰 -www-visa-com-hk, server: www.visa.com.hk, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-zsu-gov-ua, server: www.zsu.gov.ua, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -time-cloudflare-com, server: time.cloudflare.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-visa-com, server: www.visa.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -cdn-anycast-eu-org, server: cdn.anycast.eu.org, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-iplocation-net, server: www.iplocation.net, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-ipchicken-com, server: www.ipchicken.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: 🇹🇼 -icook-tw, server: icook.tw, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -iplocation-io, server: iplocation.io, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: 🇯🇵 -japan-com, server: japan.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-gco-gov-qa, server: www.gco.gov.qa, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -ip-sb, server: ip.sb, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-hugedomains-com, server: www.hugedomains.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: 🇸🇬 -singapore-com, server: singapore.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -malaysia-com, server: malaysia.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: 🇮🇸 -time-is, server: time.is, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: 🇷🇺 -russia-com, server: russia.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-boba88slot-com, server: www.boba88slot.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-ipget-net, server: www.ipget.net, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -log-bpminecraft-com, server: log.bpminecraft.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-whatismyip-com, server: www.whatismyip.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-iakeys-com, server: www.iakeys.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-baipiao-eu-org, server: www.baipiao.eu.org, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -alejandracaiccedo-com, server: alejandracaiccedo.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-d-555-com, server: www.d-555.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-sean-now-com, server: www.sean-now.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-gov-ua, server: www.gov.ua, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: -www-ipaddress-my, server: www.ipaddress.my, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: "-[2606-4700--]", server: "2606:4700::", port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
-  - {name: 默认IPV6, server: "2606:4700::", port: 8443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-workers-bkn.pages.dev}}}
+  - {name: cdn-xn--b6gac-eu-org, server: cdn.xn--b6gac.eu.org, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: cdn-b100-xn--b6gac-eu-org, server: cdn-b100.xn--b6gac.eu.org, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: download-yunzhongzhuan-com, server: download.yunzhongzhuan.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-whoer-net, server: www.whoer.net, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-udacity-com, server: www.udacity.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: skk-moe, server: skk.moe, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-shopify-com, server: www.shopify.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-digitalocean-com, server: www.digitalocean.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: fbi-gov, server: fbi.gov, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: gur-gov-ua, server: gur.gov.ua, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: edtunnel-dgp-pages-dev, server: edtunnel-dgp.pages.dev, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-udemy-com, server: www.udemy.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-wto-org, server: www.wto.org, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-okcupid-com, server: www.okcupid.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-who-int, server: www.who.int, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: 🇰🇷 www-visakorea-com, server: www.visakorea.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-4chan-org, server: www.4chan.org, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: 🇹🇼 www-visa-com-tw, server: www.visa.com.tw, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-glassdoor-com, server: www.glassdoor.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-gov-se, server: www.gov.se, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: whatismyipaddress-com, server: whatismyipaddress.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: 🇸🇬 www-visa-com-sg, server: www.visa.com.sg, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: edgetunnel-anycast-eu-org, server: edgetunnel.anycast.eu.org, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-csgo-com, server: www.csgo.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-pcmag-com, server: www.pcmag.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: 🇯🇵 www-visa-co-jp, server: www.visa.co.jp, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: 🇭🇰 www-visa-com-hk, server: www.visa.com.hk, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-zsu-gov-ua, server: www.zsu.gov.ua, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: time-cloudflare-com, server: time.cloudflare.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-visa-com, server: www.visa.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: cdn-anycast-eu-org, server: cdn.anycast.eu.org, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-iplocation-net, server: www.iplocation.net, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-ipchicken-com, server: www.ipchicken.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: 🇹🇼 icook-tw, server: icook.tw, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: iplocation-io, server: iplocation.io, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: 🇯🇵 japan-com, server: japan.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-gco-gov-qa, server: www.gco.gov.qa, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: ip-sb, server: ip.sb, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-hugedomains-com, server: www.hugedomains.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: 🇸🇬 singapore-com, server: singapore.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: malaysia-com, server: malaysia.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: 🇮🇸 time-is, server: time.is, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: 🇷🇺 russia-com, server: russia.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-boba88slot-com, server: www.boba88slot.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-ipget-net, server: www.ipget.net, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: log-bpminecraft-com, server: log.bpminecraft.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-whatismyip-com, server: www.whatismyip.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-iakeys-com, server: www.iakeys.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-baipiao-eu-org, server: www.baipiao.eu.org, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: alejandracaiccedo-com, server: alejandracaiccedo.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-d-555-com, server: www.d-555.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-sean-now-com, server: www.sean-now.com, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-gov-ua, server: www.gov.ua, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: www-ipaddress-my, server: www.ipaddress.my, port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
+  - {name: "[2606-4700--]", server: "2606:4700::", port: 443, client-fingerprint: random, type: vless, uuid: cfeec616-d8fa-4649-806f-cb6d19081c89, tls: true, tfo: false, skip-cert-verify: false, servername: sg.cf-workers-bkn.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.cf-workers-bkn.pages.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - -cdn-xn--b6gac-eu-org
-      - -cdn-b100-xn--b6gac-eu-org
-      - -download-yunzhongzhuan-com
-      - -www-whoer-net
-      - -www-udacity-com
-      - -skk-moe
-      - -www-shopify-com
-      - -www-digitalocean-com
-      - -fbi-gov
-      - -gur-gov-ua
-      - -edtunnel-dgp-pages-dev
-      - -www-udemy-com
-      - -www-wto-org
-      - -www-okcupid-com
-      - -www-who-int
-      - 🇰🇷 -www-visakorea-com
-      - -www-4chan-org
-      - 🇹🇼 -www-visa-com-tw
-      - -www-glassdoor-com
-      - -www-gov-se
-      - -whatismyipaddress-com
-      - 🇸🇬 -www-visa-com-sg
-      - -edgetunnel-anycast-eu-org
-      - -www-csgo-com
-      - -www-pcmag-com
-      - 🇯🇵 -www-visa-co-jp
-      - 🇭🇰 -www-visa-com-hk
-      - -www-zsu-gov-ua
-      - -time-cloudflare-com
-      - -www-visa-com
-      - -cdn-anycast-eu-org
-      - -www-iplocation-net
-      - -www-ipchicken-com
-      - 🇹🇼 -icook-tw
-      - -iplocation-io
-      - 🇯🇵 -japan-com
-      - -www-gco-gov-qa
-      - -ip-sb
-      - -www-hugedomains-com
-      - 🇸🇬 -singapore-com
-      - -malaysia-com
-      - 🇮🇸 -time-is
-      - 🇷🇺 -russia-com
-      - -www-boba88slot-com
-      - -www-ipget-net
-      - -log-bpminecraft-com
-      - -www-whatismyip-com
-      - -www-iakeys-com
-      - -www-baipiao-eu-org
-      - -alejandracaiccedo-com
-      - -www-d-555-com
-      - -www-sean-now-com
-      - -www-gov-ua
-      - -www-ipaddress-my
-      - -[2606-4700--]
-      - 默认IPV6
+      - cdn-xn--b6gac-eu-org
+      - cdn-b100-xn--b6gac-eu-org
+      - download-yunzhongzhuan-com
+      - www-whoer-net
+      - www-udacity-com
+      - skk-moe
+      - www-shopify-com
+      - www-digitalocean-com
+      - fbi-gov
+      - gur-gov-ua
+      - edtunnel-dgp-pages-dev
+      - www-udemy-com
+      - www-wto-org
+      - www-okcupid-com
+      - www-who-int
+      - 🇰🇷 www-visakorea-com
+      - www-4chan-org
+      - 🇹🇼 www-visa-com-tw
+      - www-glassdoor-com
+      - www-gov-se
+      - whatismyipaddress-com
+      - 🇸🇬 www-visa-com-sg
+      - edgetunnel-anycast-eu-org
+      - www-csgo-com
+      - www-pcmag-com
+      - 🇯🇵 www-visa-co-jp
+      - 🇭🇰 www-visa-com-hk
+      - www-zsu-gov-ua
+      - time-cloudflare-com
+      - www-visa-com
+      - cdn-anycast-eu-org
+      - www-iplocation-net
+      - www-ipchicken-com
+      - 🇹🇼 icook-tw
+      - iplocation-io
+      - 🇯🇵 japan-com
+      - www-gco-gov-qa
+      - ip-sb
+      - www-hugedomains-com
+      - 🇸🇬 singapore-com
+      - malaysia-com
+      - 🇮🇸 time-is
+      - 🇷🇺 russia-com
+      - www-boba88slot-com
+      - www-ipget-net
+      - log-bpminecraft-com
+      - www-whatismyip-com
+      - www-iakeys-com
+      - www-baipiao-eu-org
+      - alejandracaiccedo-com
+      - www-d-555-com
+      - www-sean-now-com
+      - www-gov-ua
+      - www-ipaddress-my
+      - "[2606-4700--]"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - -cdn-xn--b6gac-eu-org
-      - -cdn-b100-xn--b6gac-eu-org
-      - -download-yunzhongzhuan-com
-      - -www-whoer-net
-      - -www-udacity-com
-      - -skk-moe
-      - -www-shopify-com
-      - -www-digitalocean-com
-      - -fbi-gov
-      - -gur-gov-ua
-      - -edtunnel-dgp-pages-dev
-      - -www-udemy-com
-      - -www-wto-org
-      - -www-okcupid-com
-      - -www-who-int
-      - 🇰🇷 -www-visakorea-com
-      - -www-4chan-org
-      - 🇹🇼 -www-visa-com-tw
-      - -www-glassdoor-com
-      - -www-gov-se
-      - -whatismyipaddress-com
-      - 🇸🇬 -www-visa-com-sg
-      - -edgetunnel-anycast-eu-org
-      - -www-csgo-com
-      - -www-pcmag-com
-      - 🇯🇵 -www-visa-co-jp
-      - 🇭🇰 -www-visa-com-hk
-      - -www-zsu-gov-ua
-      - -time-cloudflare-com
-      - -www-visa-com
-      - -cdn-anycast-eu-org
-      - -www-iplocation-net
-      - -www-ipchicken-com
-      - 🇹🇼 -icook-tw
-      - -iplocation-io
-      - 🇯🇵 -japan-com
-      - -www-gco-gov-qa
-      - -ip-sb
-      - -www-hugedomains-com
-      - 🇸🇬 -singapore-com
-      - -malaysia-com
-      - 🇮🇸 -time-is
-      - 🇷🇺 -russia-com
-      - -www-boba88slot-com
-      - -www-ipget-net
-      - -log-bpminecraft-com
-      - -www-whatismyip-com
-      - -www-iakeys-com
-      - -www-baipiao-eu-org
-      - -alejandracaiccedo-com
-      - -www-d-555-com
-      - -www-sean-now-com
-      - -www-gov-ua
-      - -www-ipaddress-my
-      - -[2606-4700--]
-      - 默认IPV6
+      - cdn-xn--b6gac-eu-org
+      - cdn-b100-xn--b6gac-eu-org
+      - download-yunzhongzhuan-com
+      - www-whoer-net
+      - www-udacity-com
+      - skk-moe
+      - www-shopify-com
+      - www-digitalocean-com
+      - fbi-gov
+      - gur-gov-ua
+      - edtunnel-dgp-pages-dev
+      - www-udemy-com
+      - www-wto-org
+      - www-okcupid-com
+      - www-who-int
+      - 🇰🇷 www-visakorea-com
+      - www-4chan-org
+      - 🇹🇼 www-visa-com-tw
+      - www-glassdoor-com
+      - www-gov-se
+      - whatismyipaddress-com
+      - 🇸🇬 www-visa-com-sg
+      - edgetunnel-anycast-eu-org
+      - www-csgo-com
+      - www-pcmag-com
+      - 🇯🇵 www-visa-co-jp
+      - 🇭🇰 www-visa-com-hk
+      - www-zsu-gov-ua
+      - time-cloudflare-com
+      - www-visa-com
+      - cdn-anycast-eu-org
+      - www-iplocation-net
+      - www-ipchicken-com
+      - 🇹🇼 icook-tw
+      - iplocation-io
+      - 🇯🇵 japan-com
+      - www-gco-gov-qa
+      - ip-sb
+      - www-hugedomains-com
+      - 🇸🇬 singapore-com
+      - malaysia-com
+      - 🇮🇸 time-is
+      - 🇷🇺 russia-com
+      - www-boba88slot-com
+      - www-ipget-net
+      - log-bpminecraft-com
+      - www-whatismyip-com
+      - www-iakeys-com
+      - www-baipiao-eu-org
+      - alejandracaiccedo-com
+      - www-d-555-com
+      - www-sean-now-com
+      - www-gov-ua
+      - www-ipaddress-my
+      - "[2606-4700--]"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -212,62 +209,61 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - -cdn-xn--b6gac-eu-org
-      - -cdn-b100-xn--b6gac-eu-org
-      - -download-yunzhongzhuan-com
-      - -www-whoer-net
-      - -www-udacity-com
-      - -skk-moe
-      - -www-shopify-com
-      - -www-digitalocean-com
-      - -fbi-gov
-      - -gur-gov-ua
-      - -edtunnel-dgp-pages-dev
-      - -www-udemy-com
-      - -www-wto-org
-      - -www-okcupid-com
-      - -www-who-int
-      - 🇰🇷 -www-visakorea-com
-      - -www-4chan-org
-      - 🇹🇼 -www-visa-com-tw
-      - -www-glassdoor-com
-      - -www-gov-se
-      - -whatismyipaddress-com
-      - 🇸🇬 -www-visa-com-sg
-      - -edgetunnel-anycast-eu-org
-      - -www-csgo-com
-      - -www-pcmag-com
-      - 🇯🇵 -www-visa-co-jp
-      - 🇭🇰 -www-visa-com-hk
-      - -www-zsu-gov-ua
-      - -time-cloudflare-com
-      - -www-visa-com
-      - -cdn-anycast-eu-org
-      - -www-iplocation-net
-      - -www-ipchicken-com
-      - 🇹🇼 -icook-tw
-      - -iplocation-io
-      - 🇯🇵 -japan-com
-      - -www-gco-gov-qa
-      - -ip-sb
-      - -www-hugedomains-com
-      - 🇸🇬 -singapore-com
-      - -malaysia-com
-      - 🇮🇸 -time-is
-      - 🇷🇺 -russia-com
-      - -www-boba88slot-com
-      - -www-ipget-net
-      - -log-bpminecraft-com
-      - -www-whatismyip-com
-      - -www-iakeys-com
-      - -www-baipiao-eu-org
-      - -alejandracaiccedo-com
-      - -www-d-555-com
-      - -www-sean-now-com
-      - -www-gov-ua
-      - -www-ipaddress-my
-      - -[2606-4700--]
-      - 默认IPV6
+      - cdn-xn--b6gac-eu-org
+      - cdn-b100-xn--b6gac-eu-org
+      - download-yunzhongzhuan-com
+      - www-whoer-net
+      - www-udacity-com
+      - skk-moe
+      - www-shopify-com
+      - www-digitalocean-com
+      - fbi-gov
+      - gur-gov-ua
+      - edtunnel-dgp-pages-dev
+      - www-udemy-com
+      - www-wto-org
+      - www-okcupid-com
+      - www-who-int
+      - 🇰🇷 www-visakorea-com
+      - www-4chan-org
+      - 🇹🇼 www-visa-com-tw
+      - www-glassdoor-com
+      - www-gov-se
+      - whatismyipaddress-com
+      - 🇸🇬 www-visa-com-sg
+      - edgetunnel-anycast-eu-org
+      - www-csgo-com
+      - www-pcmag-com
+      - 🇯🇵 www-visa-co-jp
+      - 🇭🇰 www-visa-com-hk
+      - www-zsu-gov-ua
+      - time-cloudflare-com
+      - www-visa-com
+      - cdn-anycast-eu-org
+      - www-iplocation-net
+      - www-ipchicken-com
+      - 🇹🇼 icook-tw
+      - iplocation-io
+      - 🇯🇵 japan-com
+      - www-gco-gov-qa
+      - ip-sb
+      - www-hugedomains-com
+      - 🇸🇬 singapore-com
+      - malaysia-com
+      - 🇮🇸 time-is
+      - 🇷🇺 russia-com
+      - www-boba88slot-com
+      - www-ipget-net
+      - log-bpminecraft-com
+      - www-whatismyip-com
+      - www-iakeys-com
+      - www-baipiao-eu-org
+      - alejandracaiccedo-com
+      - www-d-555-com
+      - www-sean-now-com
+      - www-gov-ua
+      - www-ipaddress-my
+      - "[2606-4700--]"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
